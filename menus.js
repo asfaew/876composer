@@ -301,7 +301,7 @@ globalThis.MAT = new class { //Menus and transformations
 		let temp4 = btoa(temp3.toString(36)).replaceAll('=', '');
 		let finalSeed = (temp2 + "-" + temp4)
 		if (forTitle) {
-			this.tabName.innerText = "CHASYXX-" + finalSeed
+			this.tabName.innerText = "87634218675342698753-" + finalSeed
 		}
 		return finalSeed
 	}
