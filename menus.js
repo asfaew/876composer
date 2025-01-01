@@ -322,11 +322,8 @@ await new Promise(resolve => {
 	const checkLoaded = () => {
 		if (typeof bytebeat !== 'undefined') {
 			resolve();
-		} else {
-			setTimeout(checkLoaded, 50);
 		}
 	};
-	checkLoaded();
 });
 
 // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/Favorites system\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
