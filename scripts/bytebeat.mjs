@@ -435,28 +435,6 @@ globalThis.bytebeat = new class {
 		} catch (err) {
 			this.saveSettings();
 		}
-		// Below challenges trivial clones. All you have to do is remove the if,
-		// and it will work correctly.
-		// ONLY do this if you know what you're doing!
-		if (!window.location.hostname.includes`chasyxx`) { // You may also change this line to your hostname. (instead of `chasyxx`, use `t-8492` for example)
-			if (/127.\d+.\d+.\d+|\[::1\]/.test(window.location.hostname)) {
-				console.warn("The trivial clone check was tripped. See line 438 for details.")
-				document.body.innerHTML+="<p align=\"center\">The trivial clone check was tripped. See line 438 for details.</p>"
-			}
-			else {
-				document.body.innerHTML += "<div id=\"disabled-msg\">\
-			<h1 align=\"center\">Notice:</h1>\
-			<p align=\"center\">There is a check against trivial clones.</p>\
-			<p><b>Site owners:</b> If you are making an actual fork, <b><i>and are going to make changes</i></b>,<br>\
-			you may remove the check.<br> It should be obvious when you see it.</p>\
-			<p><b>Visitors:</b> If you see this message, the check was triggered.<br>\
-			This page may be just a copy of another player, with no changes.<br>\
-			You may have to wait a while so the owner disables the check, if changes are being made.</p></div>";
-				document.querySelector('title').innerHTML = "Check triggered, read now"
-				return;
-			}
-		}
-		// Above challenges trivial clones.
 		await this.initAudioContext();
 		if (document.readyState === 'loading') {
 			document.addEventListener('DOMContentLoaded', () => this.initAfterDom());
