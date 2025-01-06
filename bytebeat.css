@@ -420,12 +420,12 @@ button[name="close"] {
 }
 
 .control-button:not([disabled]):hover, .control-select:hover {
-	background-image: linear-gradient(to bottom, #528a5c, #224725);
+	background-image: linear-gradient(to bottom, #3F197D, #224725);
 	color: #c2dfff;
 }
 
 .control-button:not([disabled]):active, .control-select:active  {
-	background-image: linear-gradient(to bottom, #3c6341, #224725);
+	background-image: linear-gradient(to bottom, #3c6341, #501EA0);
 }
 
 .text-padding {
@@ -446,7 +446,7 @@ button[name="close"] {
 #control-codesize, #control-counter, #control-samplerate, #control-divisor, #control-parens {
 	height: var(--control-size);
 	padding: 0 4px;
-	background: linear-gradient(to top, #3a5e3d, #224725);
+	background: linear-gradient(to top, #3F197D, #501EA0);
 	color: #e3e3e3;
 	border: none;
 	font: bold var(--font-size)/var(--control-size) monospace;
