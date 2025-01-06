@@ -18,11 +18,11 @@ body {
 }
 
 a, a:visited {
-	color: #89ffa3;
+	color: #645AFF;
 }
 
 a:hover {
-	color: #88eefb !important;
+	color: #501EA0 !important;
 }
 
 :focus-visible {
@@ -259,7 +259,7 @@ button[name="close"] {
 	padding: 2px 6px;
 	border: none;
 	border-radius: 3px;
-	background-image: linear-gradient(to bottom, #171b22, #21bb2e);
+	background-image: linear-gradient(to bottom, #3F197D, #501EA0);
 	color: #ced5e1;
 	font: var(--font-size)/var(--font-size) sans-serif;
 	white-space: nowrap;
