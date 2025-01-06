@@ -935,7 +935,7 @@ globalThis.bytebeat = new class {
 			songData.mode = this.songData.mode;
 		}
 		window.location.hash =
-			`#EnBeat2-${btoa(String.fromCharCode.apply(undefined,
+			`#876composer-${btoa(String.fromCharCode.apply(undefined,
 				deflateRaw(JSON.stringify(songData))
 			)).replaceAll('=', '')}`;
 		this.setCodeSize(code.length);
