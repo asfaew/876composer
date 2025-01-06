@@ -267,7 +267,7 @@ button[name="close"] {
 }
 
 .code-button:hover {
-	background-image: linear-gradient(to bottom, #35473d, #2edd3d);
+	background-image: linear-gradient(to bottom, #645AFF, #8273FF);
 	color: #c2dfff;
 }
 
