@@ -1,20 +1,20 @@
 [
     {
-        "description": "what have i done",
+        "name": "what have i done",
         "url": "https://www.reddit.com/r/bytebeat/comments/1hqr080/what_have_i_done/",
         "date": "2025-01-01",
         "file": "me - what have i done.js",
         "fileOriginal": true
     },
     {
-        "description": "i am in code",
+        "name": "i am in code",
         "url": "https://www.reddit.com/r/bytebeat/comments/1hqranz/i_am_in_code/",
         "date": "2025-01-01",
         "file": "me - i am in code.js",
         "fileOriginal": true
     },
     {
-        "description": "Boss level formatted",
+        "name": "Boss level formatted",
         "url": "https://www.reddit.com/r/bytebeat/comments/1hqa89v/boss_level_formatted/",
         "date": "2024-12-31",
         "file": "me - Boss level formatted.js",
