@@ -337,12 +337,12 @@ button[name="close"] {
 .library-header {
 	padding: 4px 8px;
 	border-radius: 3px;
-	background-image: linear-gradient(to bottom, #204620, #0b170c);
+	background-image: linear-gradient(to bottom, #3F197D, #501EA0);
 	cursor: pointer;
 }
 
 .library-header:hover, .library-header:focus-visible {
-	background-image: linear-gradient(to bottom, #326c35, #192b15);
+	background-image: linear-gradient(to bottom, #3F197D, #501EA0);
 	color: #94c7ff;
 }
 
@@ -420,7 +420,7 @@ button[name="close"] {
 }
 
 .control-button:not([disabled]):hover, .control-select:hover {
-	background-image: linear-gradient(to bottom, #3F197D, #224725);
+	background-image: linear-gradient(to bottom, #3F197D, #501EA0);
 	color: #c2dfff;
 }
 
