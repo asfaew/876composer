@@ -20,7 +20,15 @@
         "url": "https://www.reddit.com/r/bytebeat/comments/1hqa89v/boss_level_formatted/",
         "date": "2024-12-31",
         "file": "me - Boss level formatted.js",
-        "fileOriginal": true
+        "fileOriginal": true,
+        "sampleRate": 8000
+    },
+    {
+        "name": "abdevfed",
+        "date": "2024-12-31",
+        "file": "me - abdevfed.js",
+        "fileOriginal": true,
+        "sampleRate": 48000
     },
     {
         "name": "I'm planning on adding more!",
