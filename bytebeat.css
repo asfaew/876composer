@@ -425,7 +425,7 @@ button[name="close"] {
 }
 
 .control-button:not([disabled]):active, .control-select:active  {
-	background-image: linear-gradient(to bottom, #3c6341, #501EA0);
+	background-image: linear-gradient(to bottom, #3F197D, #501EA0);
 }
 
 .text-padding {
